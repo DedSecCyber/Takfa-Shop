@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เข้าสู่ระบบ</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body background="images/background.jpg">
+<table width="1010" border="1" align="center">
+  <tbody>
+    <tr>
+      <td>
+		<div class="container">
+		  <table align="center" width="1010" height="300">
+			<tbody>
+			  <tr>
+				<td><img src="images/banner.png" width="1010" height="300" alt=""/></td>
+			  </tr>
+			</tbody>
+		  </table>
+		  <ul class="nav nav-tabs">
+			<li class="nav-item"> <a class="nav-link" href="index.html">หน้าแรก</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#">สินค้า</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#">ติดต่อเรา</a> </li>
+			<li><a href="login.html">
+			  <button type="button" class="btn btn-primary">เข้าสู่ระบบ</button>
+			</a></li>
+		  </ul>
+		  <h1>เข้าสู่ระบบ</h1>
+		  <form action="checklogin.php" method="post">
+		  <table width="100%">
+			  <tbody>
+				<tr>
+				  <td align="right">ชื่อผู้ใช้</td>
+				  <td>
+					<input type="text" name="txtuname" id="textfield"></td>
+				</tr>
+				<tr>
+				  <td align="right">รหัสผ่าน</td>
+				  <td>
+					<input type="password" name="txtpword" id="password"></td>
+				</tr>
+				<tr>
+				  <td align="right"><button type="submit" class="btn btn-primary">ลงชื่อเข้าใช้</button></td>
+				  <td><a href="register.html">
+				    <button type="button" class="btn btn-primary">ลงทะเบียน</button>
+				  </a></td>
+				</tr>
+			  </tbody>
+			</table>
+
+			</form>
+<table align="center" width="1010" height="200">
+			  <tbody>
+				  <tr>
+					  <td align="center" valign="middle">©Takfa Shop&nbsp;</td>
+				  </tr>
+			  </tbody>
+			</table>
+		</div>
+
+		</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

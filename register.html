@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ลงทะเบียน</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body background="images/background.jpg">
+<table width="1010" border="1" align="center">
+  <tbody>
+    <tr>
+      <td>
+		<div class="container">
+		  <table align="center" width="1010" height="300">
+			<tbody>
+			  <tr>
+				<td><img src="images/banner.png" width="1010" height="300" alt=""/></td>
+			  </tr>
+			</tbody>
+		  </table>
+		  <ul class="nav nav-tabs">
+			<li class="nav-item"> <a class="nav-link" href="index.html">หน้าแรก</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#">สินค้า</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#">ติดต่อเรา</a> </li>
+			<li><a href="login.html">
+			  <button type="button" class="btn btn-primary">เข้าสู่ระบบ</button>
+			</a></li>
+		  </ul>
+		  <h1>ลงทะเบียน/สมัครสมาชิกใหม่</h1>
+		  <form action="adduser.php" method="post">
+		  <table width="100%">
+			  <tbody>
+				<tr>
+				  <td width="37%" align="right">ชื่อผู้ใช้</td>
+				  <td width="63%">
+					<input type="text" name="txtusern" id="textfield"></td>
+				</tr>
+				<tr>
+				  <td align="right">รหัสผ่าน</td>
+				  <td>
+					<input type="password" name="txtpassw" id="password"></td>
+				</tr>
+				<tr>
+				  <td align="right">ชื่อ-สกุล</td>
+				  <td>
+                  <input type="text" name="txtname" id="textfield2"></td>
+				</tr>
+				<tr>
+				  <td align="right">ที่อยู่</td>
+				  <td>
+                  <textarea name="txtaddress" id="textarea"></textarea></td>
+			    </tr>
+				<tr>
+				  <td align="right">เบอร์โทรศัพท์</td>
+				  <td>
+                  <input type="tel" name="txttel" id="tel"></td>
+			    </tr>
+				  <td align="right">E-mail</td>
+				  <td>
+                    <input type="email" name="txtmail" id="email"></td>
+				<tr>
+				  <td></td>
+				<td><button type="submit" class="btn btn-primary">ลงทะเบียน</button></td>
+			    </tr>
+			  </tbody>
+			</table>
+
+			</form>
+			<table align="center" width="1010" height="200">
+			  <tbody>
+				  <tr>
+					  <td align="center" valign="middle">©Takfa Shop</td>
+				  </tr>
+			  </tbody>
+			</table>
+		</div>
+
+		</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
